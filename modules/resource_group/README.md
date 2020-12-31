@@ -2,7 +2,7 @@
 
 This module creates Azure Resource Group.
 
-Check [examples/resource_group](../../examples/resource_group/main.tf) folder for more info.
+Check [examples/resource_group](../../examples/resource_group/main.tf) for more info.
 
 **NOTES:** Custom tags can be passed to the module and will be merged with the default ones.
 
