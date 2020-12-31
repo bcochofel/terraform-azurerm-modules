@@ -17,8 +17,7 @@ EOD
 
 variable "account_kind" {
   description = <<EOD
-Defines the Kind of account.
-Valid options are BlobStorage, BlockBlobStorage, FileStorage, Storage and StorageV2.
+Defines the Kind of account. Valid options are BlobStorage, BlockBlobStorage, FileStorage, Storage and StorageV2.
 Changing this forces a new resource to be created.
 
 **NOTES:** Changing the account_kind value from Storage to StorageV2 will not trigger

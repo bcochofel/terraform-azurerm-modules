@@ -10,6 +10,5 @@ resource "azurerm_management_lock" "rg-lock" {
   name       = "${var.name}-level-lock"
   scope      = azurerm_resource_group.rg.id
   lock_level = var.lock_level
-
-  notes = "Resource Group '${var.name}' is locked with '${var.lock_level}' level."
+  notes      = "Resource Group '${var.name}' is locked with '${var.lock_level}' level."
 }
