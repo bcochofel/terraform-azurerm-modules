@@ -10,7 +10,7 @@ Check [examples/resource_group](../../examples/resource_group/main.tf) folder fo
 
 | Module version | Terraform version | AzureRM version |
 | -------------- | ----------------- | --------------- |
-| >= 1.0.0 | >= 0.12.20 | >= 2.41.0 |
+| \>= 1.0.0 | \>= 0.12.20 | \>= 2.41.0 |
 
 ## Inputs
 
