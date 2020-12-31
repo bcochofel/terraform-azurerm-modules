@@ -22,5 +22,8 @@ repos:
       - id: terraform-validate
         files: ^examples/
       - id: tflint
-#      - id: gofmt
-#      - id: golint
+        files: ^examples/
+      - id: gofmt
+        files: ^test/
+      - id: golint
+        files: ^test/
