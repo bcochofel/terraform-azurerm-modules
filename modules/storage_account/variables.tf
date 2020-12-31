@@ -50,9 +50,7 @@ EOD
 }
 
 variable "tags" {
-  description = <<EOD
-A mapping of tags which should be assigned to the Resource Group.
-EOD
+  description = "A mapping of tags which should be assigned to the Resource Group."
   type        = map(string)
   default = {
     ManagedBy = "Terraform"
