@@ -1,3 +1,9 @@
+# AzureRM Resource Group
+
+This module deploys AzureRM Resource Group. You can also create Management Lock for this
+resource using the `var.lock_level`.
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -28,3 +34,5 @@
 | rg\_location | Resource Group location. |
 | rg\_name | Resource Group name. |
 | rg\_tags | Resource Group tags. |
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

@@ -1,3 +1,8 @@
+# AzureRM Storage Account
+
+This module deploys AzureRM Storage Account and a list of Containers.
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -32,3 +37,5 @@
 | st\_id | Id of the storage account created. |
 | st\_name | Name of the storage account created. |
 | st\_tags | Storage Account tags. |
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

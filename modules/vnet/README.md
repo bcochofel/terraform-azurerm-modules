@@ -1,3 +1,11 @@
+# AzureRM Virtual Network
+
+This module deploys the following resources:
+* Resource Group
+* DDoS Protection Plan
+* Virtual Network
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -33,3 +41,5 @@
 | vnet\_address\_space | The address space of the newly created vNet |
 | vnet\_id | The id of the newly created vNet |
 | vnet\_name | The Name of the newly created vNet |
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
