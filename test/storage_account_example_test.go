@@ -3,7 +3,6 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/azure"
 	"github.com/gruntwork-io/terratest/modules/terraform"
 )
 
@@ -11,7 +10,7 @@ func TestTerraformAzureStorageAccountExample(t *testing.T) {
 	t.Parallel()
 
 	// subscriptionID is overridden by the environment variable "ARM_SUBSCRIPTION_ID"
-	subscriptionID := ""
+	//subscriptionID := ""
 
 	// website::tag::1:: Configure Terraform setting up a path to Terraform code.
 	terraformOptions := &terraform.Options{
@@ -26,7 +25,7 @@ func TestTerraformAzureStorageAccountExample(t *testing.T) {
 	terraform.InitAndApply(t, terraformOptions)
 
 	// website::tag::3:: Run `terraform output` to get the values of output variables
-	storageAccountName := terraform.Output(t, terraformOptions, "st_name")
+	//storageAccountName := terraform.Output(t, terraformOptions, "st_name")
 
 	// TODO: add assert function to validate creation of the storageAccountName
 }
