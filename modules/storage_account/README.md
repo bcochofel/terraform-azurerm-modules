@@ -4,7 +4,9 @@ This module creates Azure Storage Account and Containers.
 
 Check [examples/storage_account](../../examples/storage_account/main.tf) for more info.
 
-**NOTES:** Custom tags can be passed to the module and will be merged with the default ones.
+**NOTES:**
+* This module depends on a previously create Resource Group
+* Custom tags can be passed to the module and will be merged with the default ones.
 
 ## Version Compatibility
 

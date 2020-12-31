@@ -1,23 +1,15 @@
 variable "location" {
-  description = <<EOD
-The Azure Region where the Resource Group should exist.
-Changing this forces a new Resource Group to be created.
-EOD
+  description = "The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created."
   type        = string
 }
 
 variable "name" {
-  description = <<EOD
-The Name which should be used for this Resource Group.
-Changing this forces a new Resource Group to be created.
-EOD
+  description = "The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created."
   type        = string
 }
 
 variable "tags" {
-  description = <<EOD
-A mapping of tags which should be assigned to the Resource Group.
-EOD
+  description = "A mapping of tags which should be assigned to the Resource Group."
   type        = map(string)
   default = {
     ManagedBy = "Terraform"

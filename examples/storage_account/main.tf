@@ -2,17 +2,10 @@ provider "azurerm" {
   features {}
 }
 
-module "rg" {
-  source = "../../modules/resource_group"
-
-  name     = "rg-example-001"
-  location = "northeurope"
-}
-
 module "st" {
   source = "../../modules/storage_account"
 
-  resource_group_name = module.rg.rg_name
+  resource_group_name = "rg-example-001"
   name                = "stexample001"
   containers = [
     {
