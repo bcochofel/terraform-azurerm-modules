@@ -10,7 +10,7 @@ Check [examples/resourceGroup](examples/resourceGroup/main.tf) folder for more i
 
 | Module version | Terraform version | AzureRM version |
 | -------------- | ----------------- | --------------- |
-| <= 0.1.0 | >= 0.12.20 | >= 2.41.0 |
+| >= 1.0.0 | >= 0.12.20 | >= 2.41.0 |
 
 ## Inputs
 
