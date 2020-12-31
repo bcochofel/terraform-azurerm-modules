@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 module "rg" {
-  source = "../../modules/resourceGroup"
+  source = "../../modules/resource_group"
 
   name     = "rg-example-001"
   location = "northeurope"
