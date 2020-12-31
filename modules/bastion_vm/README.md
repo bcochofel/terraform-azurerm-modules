@@ -1,3 +1,17 @@
+# AzureRM Bastion VM Module
+
+This module deploys the following resources:
+* Resource Group
+* Subnet
+* Public IP
+* Network Security Group
+* Network Interface
+* Storage Account (for VM diagnostics)
+* Linux Virtual Machine
+
+The NSG allows SSH connection to the Linux VM.
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -44,3 +58,5 @@
 |------|-------------|
 | public\_ip | Publi IP address. |
 | vm\_name | Virtual Machine name. |
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

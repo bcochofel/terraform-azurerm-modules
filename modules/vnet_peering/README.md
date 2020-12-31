@@ -1,3 +1,8 @@
+# AzureRM vNet Peering
+
+This module create vNet Peering between to vNets.
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
@@ -28,3 +33,5 @@
 |------|-------------|
 | peer1to2\_id | n/a |
 | peer2to1\_id | n/a |
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

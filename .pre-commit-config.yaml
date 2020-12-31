@@ -12,7 +12,7 @@ repos:
   - repo: git://github.com/antonbabenko/pre-commit-terraform
     rev: v1.45.0
     hooks:
-      - id: terraform_docs_replace
+      - id: terraform_docs
         files: ^modules/
   - repo: https://github.com/gruntwork-io/pre-commit
     rev: v0.1.11
@@ -23,6 +23,7 @@ repos:
         files: ^examples/
       - id: tflint
         files: ^examples/
+        exclude: .*/README\.md
       - id: gofmt
         files: ^test/
       - id: golint
