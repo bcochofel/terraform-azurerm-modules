@@ -1,5 +1,7 @@
 # terraform-azurerm-modules
 
+**DEPRECATED** This repository in archived and deprecated.
+
 [![pre-commit badge][pre-commit-badge]][pre-commit] [![Conventional commits badge][conventional-commits-badge]][conventional-commits] [![Keep a Changelog v1.1.0 badge][keep-a-changelog-badge]][keep-a-changelog] [![MIT License Badge][license-badge]][license]
 
 This repository has several modules on the `modules/` folder and some samples on
